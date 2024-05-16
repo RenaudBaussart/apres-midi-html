@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--debut de la balise head (elle set a donnée des information sur la page)-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--nom de longlet de la page-->
+    <title>Document</title>
+    <!--lien vers la feille de style css-->
+    <link rel="stylesheet" href="style.css">
+    <!--lien vers une banque de donnée pour des logo-->
+    <script src="https://kit.fontawesome.com/b8c3fe08c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main id="anchorTop">
+        <div class="imgContainer">
+
+            <!-- Ici, inserez des TITRES pour vos images-->
+            <h2 class="titreImg1">
+                Titre Image 1
+            </h2>
+            <h2 class="titreImg2">
+                Titre Image 2
+            </h2>
+
+            <!-- Ici, vous pouvez placer les liens vers les images de votre choix-->
+            <img src="./res/0020_IMAGES_BODY/0020_SANDYPEAKS.jpg" class="img1" alt="description img1">
+
+            <img src="./res/0020_IMAGES_BODY/0010_GREENHILLS.jpg" class="img2" alt="description img2">
+
+            <!--- Ajoutez ici la description que vous voulez pour votre image, ou pour le site-->
+            <p class="imgText">
+                Texte descriptif images. Paragraphe de plusieurs lignes à mettre en forme via les outils CSS à
+                disposition,
+                text-align, text-transform.... Ici, deux paysages: une dune de sable désertique, et une colline
+                d'herbe printanière. La page web avant et après le CSS.
+            </p>
+        </div>
+
+        <form class="formcontainer" id="anchorform">
+            <!--- label et input pour le nom -->
+            <label for="surname" class="lab1">Nom</label>
+            <input type="text" name="surname" id="surname" class="inp1" />
+            <!--- label et input pour le prénom -->
+            <label for="name" class="lab2">Prénom</label>
+            <input type="text" name="name" id="surname" class="inp2" />
+            <!--- label et input pour le message-->
+            <label for="message--" class="lab3">Votre message</label>
+            <input type="text" name="message" id="message" class="inp3" />
+            <!---bouton pour envoyer-->
+            <button class="send">Envoyer</button>
+        </form>
+    </main>
+    
+</body>
+</html>
