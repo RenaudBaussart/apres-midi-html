@@ -121,3 +121,30 @@ h2 {
     font-size: 1.5rem;
 }
 /* Vous pouvez appliquer des espacements pour mettre en forme votre tableau grace au system du 'box model'. Jouez avec le conteneur et les éléments contenus par ce biais. */
+
+
+/* footer */
+/* display flex pour que les élements soit alignés */
+footer {
+    background-color: rgba(151, 180, 220, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-footer {
+    width: 2rem;
+    border: 1px solid black;
+}
+/* Taille de la police de l'élement paragraphe */
+.footer-p {
+    font-size: 1rem;
+}
+/* espacement avec droite pour remonter */
+.arrow {
+    margin-left: 15%;
+}
